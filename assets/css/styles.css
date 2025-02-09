@@ -1,0 +1,592 @@
+/* Top banner styling */
+.top-banner {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    height: 5vh;
+}
+
+header {
+    height: 22.5vh;
+}
+
+/* Sticky Header */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-items {
+    text-transform: uppercase;
+    /* font-size: 14px; */
+}
+
+.nav-items a {
+    margin: 0 5px;
+}
+
+.nav-icons a {
+    font-size: 1.2rem;
+    color: #666;
+    margin-left: 15px;
+}
+
+.nav-icons a:hover {
+    color: #333;
+}
+
+/* Hero Section (Full-Screen) */
+.primary-hero,
+.secondary-hero {
+    position: relative;
+    height: calc(100vh - 22.5vh);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Primary Hero Section (Top Banner Height Accounted For) */
+.primary-hero {
+    height: calc(100vh - 22.5vh - 5vh);
+    background-image: url('./../images/hero_bubble_tea.png');
+}
+
+/* Secondary Hero Section */
+.secondary-hero {
+    background-image: url('./../images/hero_dog_couple.png');
+}
+
+/* Overlay for Better Readability */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Hero Text Styling */
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 20px;
+    max-width: 60%;
+}
+
+/* Ensure text remains white even when hovered */
+.hero-text a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Ensure the icon turns blue when the entire text is hovered */
+.hero-text a:hover .fa-arrow-right-long {
+    color: var(--bs-primary) !important;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Product Section Styling */
+.product-section {
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Container Fix */
+.product-section .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Row Fix */
+.product-section .row {
+    margin-left: 0;
+    margin-right: 0;
+    gap: 0;
+}
+
+/* Product Section Heading */
+.product-section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    padding: 50px;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 123, 255, 0.5);
+    text-underline-offset: 10px;
+}
+
+
+/* Product Images */
+.product-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Chevron Styling */
+.chevron {
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+    z-index: 10;
+}
+
+/* Left Chevron */
+.chevron-left {
+    left: 20px;
+}
+
+/* Right Chevron */
+.chevron-right {
+    right: 20px;
+}
+
+/* Highlight Chevron on Hover */
+.chevron:hover {
+    color: var(--bs-primary);
+}
+
+/* Block Text Container (Placed at Bottom) */
+.block-text-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    z-index: 3;
+}
+
+.block-text-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.block-text-container:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 123, 255, 0.5);
+}
+
+/* Slogan Section Styling */
+.slogan-section {
+    background-color: white;
+    padding: 100px 0px 50px;
+    text-align: center;
+}
+
+/* Slogan Heading Styling */
+.slogan-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    text-decoration: underline;
+}
+
+/* Slogan Text Styling */
+.slogan-text {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    padding-top: 20px;
+}
+
+/* Trust Icons Section */
+.trust-icons-section {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Trust Item */
+.trust-item {
+    padding: 20px;
+}
+
+/* Trust Icons */
+.trust-icon {
+    font-size: 3rem;
+    color: rgba(0, 123, 255, 1);
+    margin-bottom: 15px;
+}
+
+/* Trust Titles */
+.trust-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Trust Description */
+.trust-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+
+    /* Mobile */
+    .trust-icon {
+        font-size: 2.5rem;
+    }
+
+    .trust-title {
+        font-size: 1.3rem;
+    }
+
+    .trust-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* New Arrivals Section */
+.new-arrivals {
+    background-color: #f8f9fa;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+/* Product Image (40% of Layout) */
+.new-arrivals-image {
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.new-arrivals-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text Content (60% of Layout) */
+.new-arrivals-text {
+    text-align: left;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* New Arrivals Title */
+.new-arrivals-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* New Arrivals Description */
+.new-arrivals-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 60px;
+}
+
+/* Call-to-Action Button (Fixed Full-Width Issue) */
+.btn-custom {
+    display: inline-block;
+    background-color: rgba(0, 123, 255, 1);
+    color: black;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid transparent;
+    border-radius: 0;
+    max-width: fit-content;
+}
+
+/* Hover Effect: Internal Border */
+.btn-custom:hover {
+    background-color: rgba(0, 123, 255, 1);
+    color: black;
+    border: 3px solid black;
+    outline: 3px solid transparent;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+
+    /* Mobile */
+    .new-arrivals {
+        flex-direction: column;
+    }
+
+    .new-arrivals-image {
+        height: auto;
+    }
+
+    .new-arrivals-text {
+        text-align: center;
+        padding: 40px;
+        align-items: center;
+    }
+
+    .new-arrivals-title {
+        font-size: 1.5rem;
+    }
+
+    .new-arrivals-description {
+        font-size: 1rem;
+    }
+
+    .btn-custom {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background-color: #f8f9fa;
+    padding: 100px 15%;
+    margin-top: 50px;
+}
+
+/* Newsletter Title */
+.newsletter-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Newsletter Description */
+.newsletter-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Newsletter Form */
+.newsletter-form {
+    width: 100%;
+}
+
+/* Email Input Field */
+.newsletter-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+/* Newsletter Button */
+.btn-newsletter {
+    background-color: rgba(0, 123, 255, 1);
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.3s ease-in-out;
+    white-space: nowrap;
+}
+
+/* Hover Effect */
+.btn-newsletter:hover {
+    border: 2px solid black;
+    background-color: rgba(0, 123, 255, 0.75);
+}
+
+/* Mobile Responsive (Stacking Form Fields) */
+@media (max-width: 768px) {
+
+    /* Small screens and below */
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-input {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .btn-newsletter {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: rgba(0, 123, 255, 1);
+    color: black;
+    padding: 50px;
+}
+
+.footer-logo {
+    max-width: 80%;
+}
+
+/* Footer Column Titles */
+.footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Footer List */
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+}
+
+/* Footer Links */
+.footer-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+/* Horizontal Rule (White Divider) */
+.footer-divider {
+    border: 1px solid white;
+    opacity: 0.5;
+    margin-top: 35px
+}
+
+/* Secondary Footer */
+.secondary-footer {
+    background-color: rgba(0, 123, 255, 1);
+    color: black;
+    text-align: center;
+    padding: 0 50px 50px;
+}
+
+/* Footer Connect Text */
+.footer-connect-text {
+    font-size: 1.5rem;
+}
+
+/* Footer Social Icons */
+.footer-social-icons {
+    display: inline-flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 5px;
+}
+
+.footer-social-icons a {
+    font-size: 1.5rem;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-social-icons a:hover {
+    color: white;
+}
+
+/* Footer Copyright */
+.footer-copyright {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Footer Cookie Policy Link */
+.footer-cookie-policy {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-cookie-policy:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+
+    /* MD and smaller */
+    .footer-logo {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Tablets */
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-list {
+        padding-top: 10px;
+    }
+
+    .footer-title {
+        padding-top: 20px;
+        /* Extra padding for title in stacked view */
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Small screens */
+    .footer-section,
+    .secondary-footer {
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .footer-list {
+        padding-top: 10px;
+    }
+
+    .footer-divider {
+        display: block;
+    }
+
+    /* Stack social media and copyright */
+    .footer-social-icons {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .footer-copyright {
+        margin-top: 10px;
+    }
+
+    .footer-cookie-policy {
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+    }
+}

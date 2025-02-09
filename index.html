@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Official Jellydog Store | Jellydog Soft Toys & Gifts</title>
+    <!-- Bootstrap stylesheet (v5.3.3) -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Font Awesome for Icons  (v6.7.2)-->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+</head>
+
+<body>
+    <!-- Top Banner -->
+    <div class="alert alert-secondary top-banner" role="alert">
+        Free UK delivery on orders over £50*
+    </div>
+
+    <!-- Header (Sticky) -->
+    <header class="sticky-header py-3">
+        <div class="container d-flex justify-content-center align-items-center">
+            <!-- Logo (Centered) -->
+            <img src="./assets/images/logo.png" alt="Jellydog Logo" class="logo">
+        </div>
+
+        <!-- Navigation Bar (Below Logo) -->
+        <nav class="navbar navbar-expand-xxl navbar-light">
+            <div class="container-fluid px-5 d-flex align-items-center justify-content-between">
+
+                <!-- Navbar Left Section: Hamburger & Search Icon -->
+                <div class="d-flex align-items-center">
+                    <!-- Hamburger Menu -->
+                    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Search Icon (Visible on Mobile Only) -->
+                    <button class="btn btn-outline-dark d-xxl-none">
+                        <i class="fas fa-search"></i>
+                    </button>
+
+                    <!-- Search Bar (Visible on Large Screens) -->
+                    <form class="d-none d-xxl-flex ms-3" role="search">
+                        <div class="input-group">
+                            <input class="form-control border-dark text-dark" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Main Menu (Hidden on Mobile, Visible on Large Screens) -->
+                <div class="collapse navbar-collapse justify-content-center d-none d-xxl-flex"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto nav-items">
+                        <li class="nav-item"><a class="nav-link" href="#">New</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Discover</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Animals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Amuseables</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Bags & Charms</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Baby & Books</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Personalised</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Gifts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Explore All</a></li>
+                    </ul>
+                </div>
+
+                <!-- Icons (Right Aligned) -->
+                <div class="nav-icons d-flex align-items-center ms-4">
+                    <a href="#" title="My Account"><i class="fas fa-user"></i></a>
+                    <a href="#" title="Wishlist"><i class="fas fa-heart"></i></a>
+                    <a href="#" title="Basket"><i class="fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Primary Hero Section (With Overlay) -->
+    <section class="primary-hero position-relative">
+        <div class="hero-overlay"></div>
+        <div class="container-fluid h-100 position-relative">
+            <div class="hero-text p-4">
+                <a href="#" class="text-white">
+                    <h1 class="display-4 fw-bold">Discover the Magic of Bubble Tea</h1>
+                    <p class="fs-1">
+                        Explore Our Collection
+                        <i class="fas fa-arrow-right-long ms-2"></i>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secondary Hero Section (With Overlay) -->
+    <section class="secondary-hero position-relative">
+        <div class="hero-overlay"></div>
+        <div class="container-fluid h-100 position-relative">
+            <div class="hero-text p-4">
+                <a href="#" class="text-white">
+                    <h1 class="display-4 fw-bold">Every Story Deserves a Wagging Tail</h1>
+                    <p class="fs-1">
+                        Celebrate Friendship and Companionship
+                        <i class="fas fa-arrow-right-long ms-2"></i>
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section (Full Width) -->
+    <section class="product-section position-relative py-5">
+        <!-- Left Chevron -->
+        <div class="chevron chevron-left position-absolute top-50 start-10 translate-middle-y">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+
+        <div class="container-fluid position-relative">
+            <div class="row justify-content-center">
+                <!-- Product 1 (Always Visible) -->
+                <div class="col-12 col-sm-6 col-md-3 text-center">
+                    <a href="#"><img src="./assets/images/product_bubble_tea.png" alt="Bubble tea plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Milk Bubble Tea</h6>
+                    </a>
+                    <p class="text-muted">£30.00</p>
+                </div>
+
+                <!-- Product 2 (Hidden on Extra Small Screens) -->
+                <div class="col-12 col-sm-6 col-md-3 text-center d-none d-sm-block">
+                    <a href="#"><img src="./assets/images/product_knight_penguin.png" alt="Penguin knight plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Knight Penguin</h6>
+                    </a>
+                    <p class="text-muted">£37.00</p>
+                </div>
+
+                <!-- Product 3 (Hidden on Small and Medium Screens) -->
+                <div class="col-12 col-md-3 text-center d-none d-md-block">
+                    <a href="#"><img src="./assets/images/product_napoleon.png" alt="Napoleon Bonaparte plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Napoleon</h6>
+                    </a>
+                    <p class="text-muted">£50.00</p>
+                </div>
+
+                <!-- Product 4 (Hidden on Small and Medium Screens) -->
+                <div class="col-12 col-md-3 text-center d-none d-md-block">
+                    <a href="#"><img src="./assets/images/product_james.png" alt="Grumpy James Plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">James Pennington</h6>
+                    </a>
+                    <p class="text-muted">£999.99</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Chevron -->
+        <div class="chevron chevron-right position-absolute top-50 end-10 translate-middle-y">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </section>
+
+    <!-- Three-Column Block Section -->
+    <section class="three-column-block">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <!-- Column 1 -->
+                <div class="col-12 col-md-4 position-relative block-column">
+                    <div class="hero-overlay"></div>
+                    <img src="./assets/images/block_dog.png" alt="Column 1" class="img-fluid w-100 h-100">
+                    <div class="block-hover-overlay"></div>
+                    <div class="block-text-container">
+                        <a href="#" class="block-text">
+                            <h3>Favourite companion <i class="fas fa-arrow-right-long ms-2"></i></h3>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-12 col-md-4 position-relative block-column">
+                    <div class="hero-overlay"></div>
+                    <img src="./assets/images/block_bunny.png" alt="Column 2" class="img-fluid w-100 h-100">
+                    <div class="block-hover-overlay"></div>
+                    <div class="block-text-container">
+                        <a href="#" class="block-text">
+                            <h3>Happy girlfriend or your money back <i class="fas fa-arrow-right-long ms-2"></i></h3>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="col-12 col-md-4 position-relative block-column">
+                    <div class="hero-overlay"></div>
+                    <img src="./assets/images/block_pork_bun.png" alt="Column 3" class="img-fluid w-100 h-100">
+                    <div class="block-hover-overlay"></div>
+                    <div class="block-text-container">
+                        <a href="#" class="block-text">
+                            <h3>Uniquely Jellydog <i class="fas fa-arrow-right-long ms-2"></i></h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slogan Section Block-->
+    <section class="slogan-section">
+        <div class="container text-center">
+            <h2 class="slogan-heading">Born in Birmingham. Loved only by ECDA students.</h2>
+            <p class="slogan-text">Welcome to the home of the Jellydog family where our mission is to share joy and
+                get mega rich! Expect
+                the unexpected. Embrace our unique designs. Enjoy the soft textures and vibrant colours… And if one
+                of these characters makes you smile, make them part of your family too and make me rich.</p>
+        </div>
+    </section>
+
+    <!-- Trust Icons Section -->
+    <section class="trust-icons-section">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <!-- Trust Item 1 -->
+                <div class="col-12 col-sm-6 col-md-3 trust-item">
+                    <i class="fas fa-truck trust-icon"></i>
+                    <h4 class="trust-title">Free UK Delivery</h4>
+                    <p class="trust-text">On orders over £50</p>
+                </div>
+
+                <!-- Trust Item 2 -->
+                <div class="col-12 col-sm-6 col-md-3 trust-item">
+                    <i class="fas fa-shield-alt trust-icon"></i>
+                    <h4 class="trust-title">Secure Payments</h4>
+                    <p class="trust-text">Fast and protected checkout</p>
+                </div>
+
+                <!-- Trust Item 3 -->
+                <div class="col-12 col-sm-6 col-md-3 trust-item">
+                    <i class="fas fa-hand-holding-heart trust-icon"></i>
+                    <h4 class="trust-title">Satisfaction Guarantee</h4>
+                    <p class="trust-text">Love it or your money back</p>
+                </div>
+
+                <!-- Trust Item 4 -->
+                <div class="col-12 col-sm-6 col-md-3 trust-item">
+                    <i class="fas fa-headset trust-icon"></i>
+                    <h4 class="trust-title">24/7 Customer Support</h4>
+                    <p class="trust-text">We’re always here to help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section class="new-arrivals">
+        <div class="container-fluid">
+            <div class="row align-items-stretch">
+                <!-- Product Image (40%) -->
+                <div class="col-12 col-md-5 new-arrivals-image">
+                    <img src="./assets/images/new_arrival_dog_plane.png"
+                        alt="Jellydog mascot disembarking from the Jellydog airplane" class="img-fluid">
+                </div>
+
+                <!-- Text Content (60%) -->
+                <div class="col-12 col-md-7 new-arrivals-text">
+                    <h2 class="new-arrivals-title">Can't find what you are looking for? </h2>
+                    <p class="new-arrivals-description">
+                        Some of our popular characters are temporarily unavailable due to high demand, but they'll be
+                        back soon! Please use the 'notify when available' feature to stay updated. In the meantime,
+                        check out our brand-new characters who have just joined the Jellydog family!
+                    </p>
+                    <a href="#" class="btn btn-custom">Shop New Arrivals</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section (Full Width) -->
+    <section class="product-section position-relative py-5">
+        <!-- Section Heading -->
+        <div class="container text-center">
+            <h2 class="product-section-title">GOING FAST</h2>
+        </div>
+
+        <!-- Left Chevron -->
+        <div class="chevron chevron-left position-absolute top-50 start-10 translate-middle-y">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+
+        <div class="container-fluid position-relative">
+            <div class="row justify-content-center">
+                <!-- Product 1 (Always Visible) -->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2 text-center">
+                    <a href="#"><img src="./assets/images/product-panda.png" alt="Panda plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Panda</h6>
+                    </a>
+                    <p class="text-muted">£30.00</p>
+                    <a href="#" class="btn btn-custom">Add to Basket</a>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="col-12 col-sm-6 col-md-3 col-lg-2 text-center d-none d-sm-block">
+                    <a href="#"><img src="./assets/images/product_heart.png" alt="Heart plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Heart</h6>
+                    </a>
+                    <p class="text-muted">£20.00</p>
+                    <a href="#" class="btn btn-custom">Add to Basket</a>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-12 col-md-3 col-lg-2 text-center d-none d-md-block">
+                    <a href="#"><img src="./assets/images/product-cat.png" alt="Cat plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Cat</h6>
+                    </a>
+                    <p class="text-muted">£42.00</p>
+                    <a href="#" class="btn btn-custom">Add to Basket</a>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="col-12 col-md-3 col-lg-2 text-center d-none d-md-block">
+                    <a href="#"><img src="./assets/images/product_hamburger.png" alt="Hamburger plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Hamburger</h6>
+                    </a>
+                    <p class="text-muted">£15.00</p>
+                    <a href="#" class="btn btn-custom">Add to Basket</a>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="col-12 col-lg-2 text-center d-none d-lg-block">
+                    <a href="#"><img src="./assets/images/product-poodle.png" alt="Poodle plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Poodle</h6>
+                    </a>
+                    <p class="text-muted">28.00</p>
+                    <a href="#" class="btn btn-custom">Add to Basket</a>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="col-12 col-lg-2 text-center d-none d-lg-block">
+                    <a href="#"><img src="./assets/images/product-bunny.png" alt="Bunny plush"
+                            class="product-img img-fluid"></a>
+                    <a href="#" class="text-dark text-decoration-none">
+                        <h6 class="mt-3">Bunny</h6>
+                    </a>
+                    <p class="text-muted">£35.00</p>
+                    <a href="#" class="btn btn-custom">Add to Basket</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Chevron -->
+        <div class="chevron chevron-right position-absolute top-50 end-10 translate-middle-y">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container text-center">
+            <h2 class="newsletter-title">Sign up to stay up to date with all things Jellydog</h2>
+            <p class="newsletter-description">Sign up for our email newsletter to receive the latest Jellydog news,
+                including new character launches, events, and exciting updates. You can unsubscribe anytime. By signing
+                up, you agree to Jellydog's <a href="#">Privacy Policy</a>.</p>
+
+            <!-- Newsletter Form -->
+            <form class="newsletter-form d-flex flex-column flex-md-row justify-content-center align-items-center">
+                <input type="email" class="form-control newsletter-input" placeholder="Enter your email address here"
+                    required>
+                <button type="submit" class="btn btn-newsletter">Join Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- First Footer Section -->
+    <footer class="footer-section">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Column 1: Logo (Hidden at md and below) -->
+                <div class="col-md-3 text-center text-md-start d-md-none d-lg-block">
+                    <img src="./assets/images/logo.png" alt="Jellydog Logo" class="footer-logo">
+                </div>
+
+                <!-- Column 2: Shopping -->
+                <div class="col-sm-12 col-md-4 col-lg-3 text-center text-md-start">
+                    <h5 class="footer-title">Shopping</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Need Help?</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Gifting Options</a></li>
+                        <li><a href="#">How We Measure</a></li>
+                        <li><a href="#">Safety & Care</a></li>
+                    </ul>
+                    <hr class="footer-divider d-md-none">
+                </div>
+
+                <!-- Column 3: About -->
+                <div class="col-sm-12 col-md-4 col-lg-3 text-center text-md-start">
+                    <h5 class="footer-title">About</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Press & PR</a></li>
+                        <li><a href="#">Jelly Jobs</a></li>
+                        <li><a href="#">Find a Stockist</a></li>
+                        <li><a href="#">Newsletter Sign Up</a></li>
+                        <li><a href="#">Events & Experiences</a></li>
+                    </ul>
+                    <hr class="footer-divider d-md-none">
+                </div>
+
+                <!-- Column 4: Legal -->
+                <div class="col-sm-12 col-md-4 col-lg-3 text-center text-md-start">
+                    <h5 class="footer-title">Legal</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Modern Slavery Statement</a></li>
+                        <li><a href="#">Online Shopping Terms & Conditions</a></li>
+                        <li><a href="#">Privacy & Cookie Policy</a></li>
+                        <li><a href="#">Website Terms of Use</a></li>
+                        <li><a href="#">Brand Protection Statement</a></li>
+                        <li><a href="#">Corporate Responsibility</a></li>
+                        <li><a href="#">Tax Strategy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider"> <!-- Main Divider Line Under Columns -->
+        </div>
+    </footer>
+
+    <!-- Secondary Footer Section -->
+    <footer class="secondary-footer">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Left Side: Connect with Jellydog -->
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <p class="footer-connect-text mb-2 mb-md-0">Connect with Jellydog</p>
+                    <div class="footer-social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Copyright -->
+                <div class="col-12 col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <p class="footer-copyright mb-0">© Jellydog 2025</p>
+                    <p class="footer-copyright mb-0">All rights reserved.</p>
+                </div>
+
+                <hr class="footer-divider">
+
+                <!-- Left Side: Cookie Policy -->
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <a href="#" class="footer-cookie-policy">Cookie Preferences</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
