@@ -1,6 +1,6 @@
 # Ecommerce Web Page: A Demonstration for Students
-[View Live Website](https://jordan-bruno.github.io/bootstrap-jellydog/)
 
+<a href="https://jordan-bruno.github.io/bootstrap-jellydog/" target="_blank">View Live Website</a>
 
 ## 📌 About This Project
 
